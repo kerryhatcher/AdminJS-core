@@ -1,6 +1,8 @@
 // hawtio log initialization
 /* globals Logger window console document localStorage $ angular jQuery navigator Jolokia */
 
+var Logger = require('js-logger');
+
 Logger.setLevel(Logger.INFO);
 Logger.storagePrefix = 'hawtio';
 
