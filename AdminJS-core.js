@@ -615,6 +615,8 @@ var hawtioPluginLoader = (function(self) {
 
 })(hawtioPluginLoader || {}, window, undefined);
 
+
+
 // Hawtio core plugin responsible for bootstrapping a hawtio app
 var HawtioCore = (function () {
 
@@ -779,7 +781,7 @@ var HawtioCore = (function () {
     });
 
     hawtioPluginLoader.addModule("ng");
-    hawtioPluginLoader.addModule("ngSanitize");
+    hawtioPluginLoader.addModule(require('angular-sanitize'));
     hawtioPluginLoader.addModule(HawtioCore.pluginName);
 
     // bootstrap the app
@@ -858,3 +860,9 @@ var HawtioCore = (function () {
     });
     return HawtioCore;
 })();
+
+
+module.exports = {
+  "hawtioPluginLoader": hawtioPluginLoader,
+  "HawtioCore": HawtioCore,
+}
