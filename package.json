@@ -1,6 +1,6 @@
 {
   "name": "adminjs-core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "front-end for managinging stuff, core package",
   "main": "AdminJS-core.js",
   "scripts": {
