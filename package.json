@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kerryhatcher/AdminJS-core#readme",
   "dependencies": {
+    "angular": "^1.5.8",
     "angular-sanitize": "^1.5.8",
     "js-logger": "^1.3.0"
   }
