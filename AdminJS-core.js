@@ -3,6 +3,7 @@
 
 var Logger = require('js-logger');
 var Angular = require('angular');
+var $ = require('jquery');
 
 Logger.setLevel(Logger.INFO);
 Logger.storagePrefix = 'hawtio';
